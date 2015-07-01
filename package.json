@@ -1,0 +1,49 @@
+{
+  "name": "broccoli-combine-mq",
+  "version": "0.0.0",
+  "description": "Broccoli plugin to combine media queries",
+  "scripts": {
+    "hint": "jshint index.js",
+    "dev": "npm run watch",
+    "test": "mocha tests/",
+    "watch": "watchify **/*.js -o 'npm run hint && npm run test'"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "author": {
+    "name": "raiseandfall",
+    "url": "https://github.com/raiseandfall"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "css",
+    "media-queries",
+    "combine",
+    "combine media queries",
+    "combine-mq"
+  ],
+  "homepage": "https://github.com/raiseandfall/broccoli-combine-mq",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:raiseandfall/broccoli-combine-mq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raiseandfall/broccoli-combine-mq/issues"
+  },
+  "devDependencies": {
+    "broccoli": "^0.16.3",
+    "expect.js": "^0.3.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "watchify": "^3.2.3"
+  },
+  "dependencies": {
+    "broccoli-writer": "^0.1.1",
+    "combine-mq": "latest",
+    "globby": "^2.0.0",
+    "pretty-bytes": "^2.0.1",
+    "rsvp": "^3.0.18"
+  }
+}
