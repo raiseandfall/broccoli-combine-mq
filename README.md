@@ -18,7 +18,7 @@ var combineMq = require('broccoli-combine-mq');
 var tree = combineMq(app, {
   files: ['style.css'],
   settings: {
-    beautify: false
+    beautify: true
   }
 });
 ```
