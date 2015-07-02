@@ -42,5 +42,5 @@ Settings for [node-combine-mq](https://github.com/frontendfriends/node-combine-m
 
 ## CONTRIBUTE
 ```shell
-$ npm run test
+$ npm run dev
 ```
