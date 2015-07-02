@@ -29,7 +29,7 @@ var tree = combineMq(app, {
 
 #### options.files
 Type: `Array`  
-_Optional_
+_Optional_  
 **Default** ```[*.css]```
 
 Path to the CSS files to apply combine-mq to.
