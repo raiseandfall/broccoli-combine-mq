@@ -1,6 +1,6 @@
 {
   "name": "broccoli-combine-mq",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Broccoli plugin to combine media queries",
   "scripts": {
     "hint": "jshint index.js",
