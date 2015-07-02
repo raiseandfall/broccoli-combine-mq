@@ -52,6 +52,7 @@ CombineMediaQueries.prototype.write = function(readTree, destDir) {
             // Process source
             var fileContents = fs.readFileSync(file, {encoding:'utf8'});
             var processed = combine.parseCssString(fileContents, self.settings);
+
             var destFile = path.join(destDir, filename);
             fs.writeFileSync(destFile, processed, {encoding: 'utf8'});
 
@@ -60,7 +61,7 @@ CombineMediaQueries.prototype.write = function(readTree, destDir) {
               processedByteSize = processedStats.size,
               processedFileSize = prettyBytes(processedByteSize);
 
-            console.log('File "' + destFile + '" created: ' + originalFileSize + ' → ' + processedFileSize);
+            console.log('--> ' + filename + ': ' + originalFileSize + ' → ' + processedFileSize + ' after combining media queries');
 
             if (i === files.length - 1) {
               resolve();
