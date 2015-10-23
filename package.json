@@ -32,6 +32,7 @@
   "bugs": {
     "url": "https://github.com/raiseandfall/broccoli-combine-mq/issues"
   },
+  "license": "MIT",
   "devDependencies": {
     "broccoli": "^0.16.3",
     "expect.js": "^0.3.1",

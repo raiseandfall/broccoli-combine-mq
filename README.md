@@ -44,3 +44,6 @@ Settings for [node-combine-mq](https://github.com/frontendfriends/node-combine-m
 ```shell
 $ npm run dev
 ```
+
+## LICENSE
+MIT
