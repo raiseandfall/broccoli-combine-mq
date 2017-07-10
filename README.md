@@ -1,6 +1,6 @@
 # Broccoli Combine Media Queries  
 
-[![Build Status](https://travis-ci.org/raiseandfall/broccoli-combine-mq.svg)](https://travis-ci.org/raiseandfall/broccoli-combine-mq)
+[![Build Status](https://travis-ci.org/raiseandfall/broccoli-combine-mq.svg)](https://travis-ci.org/raiseandfall/broccoli-combine-mq) [![Downloads](https://img.shields.io/npm/dt/broccoli-combine-mq.svg)](https://www.npmjs.com/package/broccoli-combine-mq)
 
 > Broccoli plugin to combine media queries
 > Wrapping [node-combine-mq](https://github.com/frontendfriends/node-combine-mq)
